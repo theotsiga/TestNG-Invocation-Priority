@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testGroup.TESTActitime"/>
+      <class name="multipletestmethods.Priority"/>
+      <class name="test.TESTActitime"/>
+      <class name="test.TESTGoogleAutoSuggestion"/>
+      <class name="testGroup.TESTGoogleAutoSuggestion"/>
+      <class name="multipletestmethods.InvocationCount"/>
+      <class name="multipletestmethods.PriorityInvocationCount"/>
+      <class name="multipletestmethods.MultipleTestMethods"/>
+      <class name="test.TestActitimeCreateEditDeleteAss"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
